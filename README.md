@@ -13,10 +13,6 @@ Web browser.
 Chrome, Firefox, etc
 ```
 
-## Deployment
-
-Add additional notes about how to deploy this on a live system
-
 ## Built With
 
 * JavaScript
@@ -25,4 +21,4 @@ Add additional notes about how to deploy this on a live system
 
 ## Authors
 
-* **Pavol Maškara** - *Initial work* - [Glorindel](https://github.com/glorindel)[bere.to](https://bere.to)
+* **Pavol Maškara** - *Initial work* - [Glorindel](https://github.com/glorindel) / [bere.to](https://bere.to)
