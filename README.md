@@ -2,6 +2,10 @@
 
 Just easy html/sass/js game for everyone who wants to practice his brain.
 
+## Demo
+
+[demo](http://pavol.mazornik.sk/memory-enhancer.html)
+
 ## Getting Started
 
 Just download/clone project and run it on localhost.
