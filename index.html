@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="/css/main.css">
+  <title>Memory Enhancer</title>
+</head>
+<body>
+  <div id="game-wrapper" class="appModern running" tabindex="1">
+    <div class="screen" tabindex="1" id="uvod" style="display: block;">
+      <h1>
+        Memory Enhancer
+      </h1>
+      <p id="label4">
+        Vašou úlohou je zopakovať presné poradie farieb ako vám bolo ukázané. 
+      </p>
+      <div class="button-container">
+        <button id="button1" class="uvod-button">
+        </button>
+        <button id="button2" class="uvod-button">
+        </button>
+        <button id="button3" class="uvod-button">
+        </button>
+        <button id="button4" class="uvod-button">
+        </button>
+      </div>
+      <button id="start">Spustiť</button>
+    </div>
+
+    <div class="screen" tabindex="1" id="hra">
+      <div class="score-container">
+        <h2 class="score-text">Počet bodov:</h2>
+        <label id="score-number-hra" class="score-number">0</label>
+      </div>  
+      <div class="button-container">
+        <button id="b1" class="hra-button vis-hidden">
+        </button>
+        <button id="b2" class="hra-button vis-hidden">
+        </button>
+        <button id="b3" class="hra-button vis-hidden">
+        </button>
+        <button id="b4" class="hra-button vis-hidden">
+        </button>
+      </div>
+      <label id="label-correct" class="vis-hidden">
+        Správne!
+      </label>
+      <button id="pokracovat" class="vis-hidden">Ďalší level</button>
+    </div>
+
+    <div class="screen" tabindex="1" id="koniec">
+      <h1>
+        Memory Enhancer
+      </h1>
+      <h2 class="score-text">
+        Počet bodov:
+      </h2>
+      <label id="score-number-koniec">
+        0
+      </label>
+      <label id="label7">
+        Vašou úlohou je zopakovať presné poradie farieb ako vám bolo ukázané. 
+      </label>
+      <button id="start2">Spustiť</button>
+    </div>
+  </div>
+  <script src="/js/main.js"></script>
+</body>
+</html>
