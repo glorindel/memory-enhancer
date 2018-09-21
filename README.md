@@ -4,7 +4,7 @@ Just easy html/sass/js game for everyone who wants to practice his brain.
 
 ## Demo
 
-[demo](https://pavol.mazornik.sk/memory-enhancer.html)
+[demo](https://pavol.mazornik.sk/memory-enhancer/)
 
 ## Getting Started
 
